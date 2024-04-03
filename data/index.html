@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Web Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <h1>ESP32 Web Server</h1>
+  <p>GPIO state: %STATE%</p>
+  <div>
+    <div class="tempDiv">
+      <p>Temperature:</p>
+    </div>
+    <div class="tempDiv">
+      <p id="temperature"> %TEMP%</p>
+    </div>
+  </div>
+  <div>
+    <div class="humidDiv">
+      <p>Humidity:</p>
+    </div>
+    <div class="humidDiv">
+      <p id="humidity"> %HUMIDIITY%</p>
+    </div>
+  </div>
+  
+  
+  <!--
+  <p><a href="/on"><button class="button">ON</button></a></p>
+  <p><a href="/off"><button class="button button2">OFF</button></a></p>
+  <a href="">Reload Page</a> 
+  -->
+
+  <script src="script.js"></script>
+</body>
+</html>
