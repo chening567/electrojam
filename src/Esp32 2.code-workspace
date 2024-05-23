@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "espnow",
+			"path": "../../espnow"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmath": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Esp32 2"
+	}
+}

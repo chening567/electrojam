@@ -3,6 +3,7 @@ html {
     display: inline-block;
     margin: 0px auto;
     text-align: center;
+    
   }
   h1{
     color: #0F3376;
@@ -26,7 +27,36 @@ html {
   .button2 {
     background-color: #f44336;
   }
-.tempDiv, .humidDiv { 
-  display: inline-block;
+
+.box{ 
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0px 0px 3px #000000;
   
+}
+
+.boxes{ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  
+
+}
+.heading { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20vw; 
+  
+}
+
+.time {
+  display: flex;
+  padding-right: 20vw; 
 }
